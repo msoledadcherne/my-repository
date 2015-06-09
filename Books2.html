@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<title>Google Books</title>
+<head>
+<script src='https://code.jquery.com/jquery.js'></script>
+</head>
+<body>
+	<form>
+		<input type="text" id="subjectsearch" placeholder="Books by Subject..." required>
+		<input type="button" value="Search" onclick="SearchFunction()">
+	</form>
+	<script>
+	var appendSubject = function (SearchFunction){$('#subjectsearch').onclick};
+	$.get(“www.googleapis.com/books/v1/volumes”, {q: <text>, startIndex: <start>, maxResults: <num-of-results>}, function(SearchFunction)});
+	
+	</script>
+</body>
+</html>
